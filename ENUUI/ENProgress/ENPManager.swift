@@ -21,6 +21,7 @@ public class ENPManager {
         for v in progressView.subviews {
             v.removeFromSuperview()
         }
+        
         progressView.alpha = 1.0
         
         let lbl = text(element)
@@ -80,6 +81,7 @@ public class ENPManager {
         v.backgroundColor = UIColor(white: 0.3, alpha: 0.7)
         return v
     }()
+    
     fileprivate func animView<T: E>(_ element: T) -> UIView {
         
         let rep = element.repLayer()

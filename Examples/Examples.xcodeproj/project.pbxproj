@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F814E731F1705BE00A07166 /* ENTTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F814E721F1705BE00A07166 /* ENTTView.swift */; };
+		5F814E751F1711A100A07166 /* TTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F814E741F1711A100A07166 /* TTViewController.swift */; };
 		5FF9C3BF1F161DF700F6AFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3BE1F161DF700F6AFF3 /* AppDelegate.swift */; };
 		5FF9C3C11F161DF700F6AFF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3C01F161DF700F6AFF3 /* ViewController.swift */; };
 		5FF9C3C41F161DF700F6AFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF9C3C21F161DF700F6AFF3 /* Main.storyboard */; };
@@ -15,9 +17,12 @@
 		5FF9C3DD1F161FD000F6AFF3 /* ENPElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3DA1F161FD000F6AFF3 /* ENPElement.swift */; };
 		5FF9C3DE1F161FD000F6AFF3 /* ENPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3DB1F161FD000F6AFF3 /* ENPManager.swift */; };
 		5FF9C3E61F16218700F6AFF3 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3E51F16218700F6AFF3 /* ProgressViewController.swift */; };
+		5FFB86BB1F187FB100F9C54F /* UIScrollView+TTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB86BA1F187FB100F9C54F /* UIScrollView+TTView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F814E721F1705BE00A07166 /* ENTTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENTTView.swift; sourceTree = "<group>"; };
+		5F814E741F1711A100A07166 /* TTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TTViewController.swift; path = ../../Examples/Examples/TTViewController.swift; sourceTree = "<group>"; };
 		5FF9C3BB1F161DF700F6AFF3 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF9C3BE1F161DF700F6AFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF9C3C01F161DF700F6AFF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		5FF9C3DA1F161FD000F6AFF3 /* ENPElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENPElement.swift; sourceTree = "<group>"; };
 		5FF9C3DB1F161FD000F6AFF3 /* ENPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENPManager.swift; sourceTree = "<group>"; };
 		5FF9C3E51F16218700F6AFF3 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressViewController.swift; path = Examples/ProgressViewController.swift; sourceTree = SOURCE_ROOT; };
+		5FFB86BA1F187FB100F9C54F /* UIScrollView+TTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TTView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F814E6F1F1704C800A07166 /* ENTopTip */ = {
+			isa = PBXGroup;
+			children = (
+				5FFB86BA1F187FB100F9C54F /* UIScrollView+TTView.swift */,
+				5F814E721F1705BE00A07166 /* ENTTView.swift */,
+				5F814E741F1711A100A07166 /* TTViewController.swift */,
+			);
+			name = ENTopTip;
+			path = ../../ENUUI/ENTopTip;
+			sourceTree = "<group>";
+		};
 		5FF9C3B21F161DF700F6AFF3 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +77,7 @@
 		5FF9C3BD1F161DF700F6AFF3 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				5F814E6F1F1704C800A07166 /* ENTopTip */,
 				5FF9C3DC1F161FD000F6AFF3 /* ENProgress */,
 				5FF9C3BE1F161DF700F6AFF3 /* AppDelegate.swift */,
 				5FF9C3C01F161DF700F6AFF3 /* ViewController.swift */,
@@ -158,10 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF9C3E61F16218700F6AFF3 /* ProgressViewController.swift in Sources */,
+				5F814E731F1705BE00A07166 /* ENTTView.swift in Sources */,
+				5FFB86BB1F187FB100F9C54F /* UIScrollView+TTView.swift in Sources */,
 				5FF9C3C11F161DF700F6AFF3 /* ViewController.swift in Sources */,
 				5FF9C3DE1F161FD000F6AFF3 /* ENPManager.swift in Sources */,
 				5FF9C3DD1F161FD000F6AFF3 /* ENPElement.swift in Sources */,
 				5FF9C3BF1F161DF700F6AFF3 /* AppDelegate.swift in Sources */,
+				5F814E751F1711A100A07166 /* TTViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

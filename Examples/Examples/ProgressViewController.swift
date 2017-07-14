@@ -27,6 +27,7 @@ class ProgressViewController: UIViewController {
         ele.animType = ENPAnimType.scale(8)
         ele.count = 8
         ele.cornerRadius = 2.5
+        ele.text = "xxxxxxxxxxxxxxxxxx"
         progress.start(ele, self.view)
     }
     

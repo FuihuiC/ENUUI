@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F814E711F17052B00A07166 /* ENTTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F814E701F17052B00A07166 /* ENTTView.swift */; };
 		5FF9C3841F161CCF00F6AFF3 /* ENUUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF9C37A1F161CCF00F6AFF3 /* ENUUI.framework */; };
 		5FF9C3891F161CCF00F6AFF3 /* ENUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3881F161CCF00F6AFF3 /* ENUUITests.swift */; };
 		5FF9C38B1F161CCF00F6AFF3 /* ENUUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF9C37D1F161CCF00F6AFF3 /* ENUUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FF9C3D31F161F6B00F6AFF3 /* ENPElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3D11F161F6B00F6AFF3 /* ENPElement.swift */; };
 		5FF9C3D41F161F6B00F6AFF3 /* ENPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3D21F161F6B00F6AFF3 /* ENPManager.swift */; };
+		5FFB86B91F187FAC00F9C54F /* UIScrollView+TTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB86B81F187FAC00F9C54F /* UIScrollView+TTView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F814E701F17052B00A07166 /* ENTTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENTTView.swift; sourceTree = "<group>"; };
 		5FF9C37A1F161CCF00F6AFF3 /* ENUUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ENUUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF9C37D1F161CCF00F6AFF3 /* ENUUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENUUI.h; sourceTree = "<group>"; };
 		5FF9C37E1F161CCF00F6AFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		5FF9C38A1F161CCF00F6AFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FF9C3D11F161F6B00F6AFF3 /* ENPElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENPElement.swift; sourceTree = "<group>"; };
 		5FF9C3D21F161F6B00F6AFF3 /* ENPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENPManager.swift; sourceTree = "<group>"; };
+		5FFB86B81F187FAC00F9C54F /* UIScrollView+TTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TTView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F814E6E1F1704C400A07166 /* ENTopTip */ = {
+			isa = PBXGroup;
+			children = (
+				5F814E701F17052B00A07166 /* ENTTView.swift */,
+				5FFB86B81F187FAC00F9C54F /* UIScrollView+TTView.swift */,
+			);
+			path = ENTopTip;
+			sourceTree = "<group>";
+		};
 		5FF9C3701F161CCF00F6AFF3 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +88,7 @@
 		5FF9C37C1F161CCF00F6AFF3 /* ENUUI */ = {
 			isa = PBXGroup;
 			children = (
+				5F814E6E1F1704C400A07166 /* ENTopTip */,
 				5FF9C3D01F161F6B00F6AFF3 /* ENProgress */,
 				5FF9C37D1F161CCF00F6AFF3 /* ENUUI.h */,
 				5FF9C37E1F161CCF00F6AFF3 /* Info.plist */,
@@ -214,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF9C3D31F161F6B00F6AFF3 /* ENPElement.swift in Sources */,
+				5F814E711F17052B00A07166 /* ENTTView.swift in Sources */,
+				5FFB86B91F187FAC00F9C54F /* UIScrollView+TTView.swift in Sources */,
 				5FF9C3D41F161F6B00F6AFF3 /* ENPManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

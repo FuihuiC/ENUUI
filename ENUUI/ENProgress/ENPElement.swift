@@ -64,13 +64,6 @@ public protocol ENPElementPrtl {
     var cornerRadius: CGFloat { get }
     var borderColor: UIColor { get }
     var borderWidth: CGFloat { get }
-    
-    /// set image for per element
-    var elementImage: UIImage? { get }
-    
-    /// set elements
-    var elementImages: [UIImage]? { get }
-    
     /// animted image
     var image: UIImage? { get }
     
@@ -102,9 +95,6 @@ public class ENPElement: ENPElementPrtl {
     public var borderColor: UIColor = UIColor.gray
     public var borderWidth: CGFloat = 0.0
     
-    public var elementImage: UIImage?
-    public var elementImages: [UIImage]?
-    
     public var image: UIImage?
     
     public var textType: ENPTextType =  ENPTextType.horizontal
@@ -117,6 +107,7 @@ public class ENPElement: ENPElementPrtl {
         let repLayer = CAReplicatorLayer()
         
         repLayer.frame = CGRect(x: 0, y: 0, width: self.animSize.width, height: self.animSize.height)
+        
         guard self.image == nil else {
             return repLayer
         }
