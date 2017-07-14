@@ -16,7 +16,7 @@ class ProgressViewController: UIViewController {
     
     @IBAction func clickType_2(_ sender: Any) {
         let ele = ENPElement()
-        ele.image = UIImage(named: "rotating")
+        ele.image = UIImage.en_imageNamed("rotating")
         progress.start(ele, self.view)
     }
     

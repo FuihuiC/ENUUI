@@ -61,7 +61,7 @@ public class ENTTView: UIView {
     lazy var cancelButton: UIButton = {
         let btn = UIButton()
         btn.addTarget(self, action: #selector(clickCancelBtn(sender:)), for: .touchUpInside)
-        btn.setImage(UIImage(named: "close"), for: .normal)
+        btn.setImage(UIImage.en_imageNamed("close"), for: .normal)
         return btn
     }()
     

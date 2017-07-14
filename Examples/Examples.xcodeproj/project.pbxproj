@@ -18,6 +18,7 @@
 		5FF9C3DE1F161FD000F6AFF3 /* ENPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3DB1F161FD000F6AFF3 /* ENPManager.swift */; };
 		5FF9C3E61F16218700F6AFF3 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3E51F16218700F6AFF3 /* ProgressViewController.swift */; };
 		5FFB86BB1F187FB100F9C54F /* UIScrollView+TTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB86BA1F187FB100F9C54F /* UIScrollView+TTView.swift */; };
+		5FFB86C51F1890FB00F9C54F /* UIImage+ENUUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB86C31F1890FB00F9C54F /* UIImage+ENUUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5FF9C3DB1F161FD000F6AFF3 /* ENPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENPManager.swift; sourceTree = "<group>"; };
 		5FF9C3E51F16218700F6AFF3 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressViewController.swift; path = Examples/ProgressViewController.swift; sourceTree = SOURCE_ROOT; };
 		5FFB86BA1F187FB100F9C54F /* UIScrollView+TTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TTView.swift"; sourceTree = "<group>"; };
+		5FFB86C31F1890FB00F9C54F /* UIImage+ENUUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ENUUI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5FF9C3BD1F161DF700F6AFF3 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				5FFB86C41F1890FB00F9C54F /* ENUtility */,
 				5F814E6F1F1704C800A07166 /* ENTopTip */,
 				5FF9C3DC1F161FD000F6AFF3 /* ENProgress */,
 				5FF9C3BE1F161DF700F6AFF3 /* AppDelegate.swift */,
@@ -99,6 +102,15 @@
 			);
 			name = ENProgress;
 			path = ../../ENUUI/ENProgress;
+			sourceTree = "<group>";
+		};
+		5FFB86C41F1890FB00F9C54F /* ENUtility */ = {
+			isa = PBXGroup;
+			children = (
+				5FFB86C31F1890FB00F9C54F /* UIImage+ENUUI.swift */,
+			);
+			name = ENUtility;
+			path = ../../ENUUI/ENUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +194,7 @@
 				5FF9C3DE1F161FD000F6AFF3 /* ENPManager.swift in Sources */,
 				5FF9C3DD1F161FD000F6AFF3 /* ENPElement.swift in Sources */,
 				5FF9C3BF1F161DF700F6AFF3 /* AppDelegate.swift in Sources */,
+				5FFB86C51F1890FB00F9C54F /* UIImage+ENUUI.swift in Sources */,
 				5F814E751F1711A100A07166 /* TTViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

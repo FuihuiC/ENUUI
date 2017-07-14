@@ -14,6 +14,8 @@
 		5FF9C3D31F161F6B00F6AFF3 /* ENPElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3D11F161F6B00F6AFF3 /* ENPElement.swift */; };
 		5FF9C3D41F161F6B00F6AFF3 /* ENPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9C3D21F161F6B00F6AFF3 /* ENPManager.swift */; };
 		5FFB86B91F187FAC00F9C54F /* UIScrollView+TTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB86B81F187FAC00F9C54F /* UIScrollView+TTView.swift */; };
+		5FFB86BD1F188D8200F9C54F /* ENUUISource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5FFB86BC1F188D8200F9C54F /* ENUUISource.bundle */; };
+		5FFB86C21F188E5500F9C54F /* UIImage+ENUUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB86C11F188E5500F9C54F /* UIImage+ENUUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		5FF9C3D11F161F6B00F6AFF3 /* ENPElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENPElement.swift; sourceTree = "<group>"; };
 		5FF9C3D21F161F6B00F6AFF3 /* ENPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENPManager.swift; sourceTree = "<group>"; };
 		5FFB86B81F187FAC00F9C54F /* UIScrollView+TTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TTView.swift"; sourceTree = "<group>"; };
+		5FFB86BC1F188D8200F9C54F /* ENUUISource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ENUUISource.bundle; sourceTree = "<group>"; };
+		5FFB86C11F188E5500F9C54F /* UIImage+ENUUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ENUUI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +92,12 @@
 		5FF9C37C1F161CCF00F6AFF3 /* ENUUI */ = {
 			isa = PBXGroup;
 			children = (
+				5FFB86C01F188E4300F9C54F /* ENUtility */,
 				5F814E6E1F1704C400A07166 /* ENTopTip */,
 				5FF9C3D01F161F6B00F6AFF3 /* ENProgress */,
 				5FF9C37D1F161CCF00F6AFF3 /* ENUUI.h */,
 				5FF9C37E1F161CCF00F6AFF3 /* Info.plist */,
+				5FFB86BC1F188D8200F9C54F /* ENUUISource.bundle */,
 			);
 			path = ENUUI;
 			sourceTree = "<group>";
@@ -112,6 +118,14 @@
 				5FF9C3D21F161F6B00F6AFF3 /* ENPManager.swift */,
 			);
 			path = ENProgress;
+			sourceTree = "<group>";
+		};
+		5FFB86C01F188E4300F9C54F /* ENUtility */ = {
+			isa = PBXGroup;
+			children = (
+				5FFB86C11F188E5500F9C54F /* UIImage+ENUUI.swift */,
+			);
+			path = ENUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFB86BD1F188D8200F9C54F /* ENUUISource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +246,7 @@
 				5F814E711F17052B00A07166 /* ENTTView.swift in Sources */,
 				5FFB86B91F187FAC00F9C54F /* UIScrollView+TTView.swift in Sources */,
 				5FF9C3D41F161F6B00F6AFF3 /* ENPManager.swift in Sources */,
+				5FFB86C21F188E5500F9C54F /* UIImage+ENUUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
