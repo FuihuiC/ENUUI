@@ -82,7 +82,7 @@ public class ENPManager {
         return v
     }()
     
-    fileprivate func animView<T: E>(_ element: T) -> UIView {
+    fileprivate func animView(_ element: E) -> UIView {
         
         let rep = element.repLayer()
         let el = element.ele()
@@ -102,7 +102,7 @@ public class ENPManager {
         return v
     }
     
-    fileprivate func text<T: E>(_ element: T) -> UILabel {
+    fileprivate func text(_ element: E) -> UILabel {
         let lbl = UILabel()
         if element.textAttibute != nil {
             lbl.attributedText = element.textAttibute
