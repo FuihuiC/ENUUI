@@ -16,13 +16,13 @@ class TTViewController: UIViewController {
         super.viewDidLoad()
         
         let lbl = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 23))
-        lbl.backgroundColor = UIColor.brown
+        lbl.backgroundColor = UIColor.blue
         lbl.text = "This is Top"
         scrollView.addSubview(lbl)
         scrollView.contentSize = CGSize(width: 0, height: 2000)
         
         scrollView.registerTTView(34)
-        scrollView.ttView?.title = "网络连接失败..."
+        scrollView.ttView?.title = "网络连接中..."
     }
     
     @IBAction func clickStart(_ sender: UIButton) {
@@ -33,7 +33,6 @@ class TTViewController: UIViewController {
         scrollView.closeTT()
     }
 
-    
     deinit {
         print("deinit - TTViewController")
     }

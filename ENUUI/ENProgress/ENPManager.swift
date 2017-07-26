@@ -10,13 +10,13 @@ import UIKit
 
 public class ENPManager {
     
-    typealias E = ENPElementPrtl
+    typealias E = ENPElement
     
     func start(_ inView: UIView) {
         start(ENPElement(), inView)
     }
     
-    func start<T: E>(_ element: T, _ inView: UIView) {
+    func start(_ element: E, _ inView: UIView) {
         
         for v in progressView.subviews {
             v.removeFromSuperview()

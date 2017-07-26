@@ -146,7 +146,7 @@
 				TargetAttributes = {
 					5FF9C3BA1F161DF700F6AFF3 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = H33HXLVBDF;
+						DevelopmentTeam = ND64TP974D;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -318,7 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H33HXLVBDF;
+				DEVELOPMENT_TEAM = ND64TP974D;
 				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fhMac.Examples;
@@ -331,7 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H33HXLVBDF;
+				DEVELOPMENT_TEAM = ND64TP974D;
 				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fhMac.Examples;

@@ -46,40 +46,7 @@ public enum ENPTextType {
     case horizontal /// 水平
 }
 
-public protocol ENPElementPrtl {
-    
-    /// count of per circle. count must be > 0
-    var count: Int { get }
-    var size: CGSize? { get }
-    var animSize: CGSize { get }
-    
-    /// size of per elemen
-    var eleSize: CGSize { get }
-    
-    /// color of element
-    var color: UIColor { get }
-    
-    var animType: ENPAnimType { get }
-    
-    var cornerRadius: CGFloat { get }
-    var borderColor: UIColor { get }
-    var borderWidth: CGFloat { get }
-    /// animted image
-    var image: UIImage? { get }
-    
-    var textType: ENPTextType { get }
-    /// text to show whilt animtion
-    var text: String { get }
-    var textFont: UIFont { get }
-    var textColor: UIColor { get }
-    var textAttibute: NSAttributedString? { get }
-    
-    func repLayer() -> CAReplicatorLayer
-    func ele() -> CALayer
-    func anim() -> CABasicAnimation
-}
-
-public class ENPElement: ENPElementPrtl {
+public class ENPElement {
     
     fileprivate static let c: Int = 8
     
